@@ -1,0 +1,103 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 710px;
+}
+
+.visa,
+.tinkof,
+.sber,
+.vtb {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #833ae0;
+    font-family: 'Courier New', monospace;
+    border-radius: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 330px;
+    height: 200px;
+}
+
+.tinkof {
+    background-color: black;
+}
+
+.sber {
+    background-color: green;
+}
+
+.vtb {
+    background-color: blue;
+}
+
+.chip {
+    width: 50px;
+    margin-top: 35px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    vertical-align: bottom;
+}
+
+.tin-logo {
+    width: 140px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 50;
+}
+
+.logo-visa {
+    width: 100px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-right: 10;
+}
+
+.sber-logo {
+    width: 140px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 50;
+}
+
+.vtb-logo {
+    width: 140px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 50;
+}
+
+.master-card {
+    width: 80px;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-right: 10;
+}
+
+p {
+    color: white;
+    margin: 0 15px;
+}
+
+.number {
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: monospace;
+
+}
+
+.valid {
+    font-size: 9px;
+    font-family: Tahoma, sans-serif;
+}
+
+.date {
+    font-family: Tahoma, sans-serif;
+}
